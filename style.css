@@ -1,3 +1,67 @@
 body {
-	background:gold
+	background:gold;
+}
+
+h1 {
+	margin: auto;
+	padding: 5px;
+	border: double;
+	text-align: center;
+	background-image: url("egyptianbackground.jpg");
+	color: brown;
+}
+
+h2 {
+	text-align: center;
+}
+
+.title {
+	color: brown;
+	font-weight: bold;
+}
+
+.top_content {
+	color: brown;
+	font-family: Papyrus;
+}
+
+#quote {
+	margin: auto;
+	font-family: Papyrus;
+	text-align: center;
+	color: brown;
+}
+
+img {
+	/*margin: 10px;*/
+	margin: 15px;
+	padding: 20px;
+    float: left;
+}
+
+table {
+	background-image: url("egyptianbackground.jpg");
+	font-weight: bold;
+}
+
+a:visited{
+	color: red;
+}
+
+#footer {
+	text-align: center;
+	font-size: .8em;
+	font-style: italic;
+	padding: 10px;
+	color: brown;
+}
+
+@media screen and (max-width: 450px){
+  table {
+    padding: 2%;
+    font-size: .8em;
+  }
+  img{
+    padding: 3%;
+  }
 }
